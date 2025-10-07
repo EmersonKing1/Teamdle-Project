@@ -1,0 +1,1073 @@
+[
+  {
+    "Team Name": "Arizona Diamondbacks",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL West",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Atlanta Braves",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL East",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Baltimore Orioles",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL East",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Boston Red Sox",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL East",
+    "Championships": 9
+  },
+  {
+    "Team Name": "Chicago Cubs",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL Central",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Chicago White Sox",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL Central",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Cincinnati Reds",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL Central",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Cleveland Guardians",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL Central",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Colorado Rockies",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL West",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Detroit Tigers",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL Central",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Houston Astros",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL West",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Kansas City Royals",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL Central",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Los Angeles Angels",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL West",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Los Angeles Dodgers",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL West",
+    "Championships": 8
+  },
+  {
+    "Team Name": "Miami Marlins",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL East",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Milwaukee Brewers",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL Central",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Minnesota Twins",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL Central",
+    "Championships": 3
+  },
+  {
+    "Team Name": "New York Mets",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL East",
+    "Championships": 2
+  },
+  {
+    "Team Name": "New York Yankees",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL East",
+    "Championships": 27
+  },
+  {
+    "Team Name": "Oakland Athletics",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL West",
+    "Championships": 9
+  },
+  {
+    "Team Name": "Philadelphia Phillies",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL East",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Pittsburgh Pirates",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL Central",
+    "Championships": 5
+  },
+  {
+    "Team Name": "San Diego Padres",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL West",
+    "Championships": 0
+  },
+  {
+    "Team Name": "San Francisco Giants",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL West",
+    "Championships": 8
+  },
+  {
+    "Team Name": "Seattle Mariners",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL West",
+    "Championships": 0
+  },
+  {
+    "Team Name": "St. Louis Cardinals",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL Central",
+    "Championships": 11
+  },
+  {
+    "Team Name": "Tampa Bay Rays",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL East",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Texas Rangers",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL West",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Toronto Blue Jays",
+    "League": "MLB",
+    "Conference": "American League (AL)",
+    "Division": "AL East",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Washington Nationals",
+    "League": "MLB",
+    "Conference": "National League (NL)",
+    "Division": "NL East",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Atlanta Hawks",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Southeast",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Boston Celtics",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 18
+  },
+  {
+    "Team Name": "Brooklyn Nets",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Charlotte Hornets",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Southeast",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Chicago Bulls",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Central",
+    "Championships": 6
+  },
+  {
+    "Team Name": "Cleveland Cavaliers",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Central",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Dallas Mavericks",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Southwest",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Denver Nuggets",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Northwest",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Detroit Pistons",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Central",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Golden State Warriors",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 7
+  },
+  {
+    "Team Name": "Houston Rockets",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Southwest",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Indiana Pacers",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Central",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Los Angeles Clippers",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Los Angeles Lakers",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 17
+  },
+  {
+    "Team Name": "Memphis Grizzlies",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Southwest",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Miami Heat",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Southeast",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Milwaukee Bucks",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Central",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Minnesota Timberwolves",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Northwest",
+    "Championships": 0
+  },
+  {
+    "Team Name": "New Orleans Pelicans",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Southwest",
+    "Championships": 0
+  },
+  {
+    "Team Name": "New York Knicks",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Oklahoma City Thunder",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Northwest",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Orlando Magic",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Southeast",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Philadelphia 76ers",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Phoenix Suns",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Portland Trail Blazers",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Northwest",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Sacramento Kings",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 1
+  },
+  {
+    "Team Name": "San Antonio Spurs",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Southwest",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Toronto Raptors",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Utah Jazz",
+    "League": "NBA",
+    "Conference": "Western Conference",
+    "Division": "Northwest",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Washington Wizards",
+    "League": "NBA",
+    "Conference": "Eastern Conference",
+    "Division": "Southeast",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Arizona Cardinals",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC West",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Atlanta Falcons",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC South",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Baltimore Ravens",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC North",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Buffalo Bills",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC East",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Carolina Panthers",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC South",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Chicago Bears",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC North",
+    "Championships": 9
+  },
+  {
+    "Team Name": "Cincinnati Bengals",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC North",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Cleveland Browns",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC North",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Dallas Cowboys",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC East",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Denver Broncos",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC West",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Detroit Lions",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC North",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Green Bay Packers",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC North",
+    "Championships": 13
+  },
+  {
+    "Team Name": "Houston Texans",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC South",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Indianapolis Colts",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC South",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Jacksonville Jaguars",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC South",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Kansas City Chiefs",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC West",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Las Vegas Raiders",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC West",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Los Angeles Chargers",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC West",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Los Angeles Rams",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC West",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Miami Dolphins",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC East",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Minnesota Vikings",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC North",
+    "Championships": 0
+  },
+  {
+    "Team Name": "New England Patriots",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC East",
+    "Championships": 6
+  },
+  {
+    "Team Name": "New Orleans Saints",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC South",
+    "Championships": 1
+  },
+  {
+    "Team Name": "New York Giants",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC East",
+    "Championships": 8
+  },
+  {
+    "Team Name": "New York Jets",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC East",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Philadelphia Eagles",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC East",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Pittsburgh Steelers",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC North",
+    "Championships": 6
+  },
+  {
+    "Team Name": "San Francisco 49ers",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC West",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Seattle Seahawks",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC West",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Tampa Bay Buccaneers",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC South",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Tennessee Titans",
+    "League": "NFL",
+    "Conference": "American Football Conf",
+    "Division": "AFC South",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Washington Commanders",
+    "League": "NFL",
+    "Conference": "National Football Conf",
+    "Division": "NFC East",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Anaheim Ducks",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Arizona Coyotes",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Boston Bruins",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 6
+  },
+  {
+    "Team Name": "Buffalo Sabres",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Calgary Flames",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Carolina Hurricanes",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Chicago Blackhawks",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 6
+  },
+  {
+    "Team Name": "Colorado Avalanche",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Columbus Blue Jackets",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Dallas Stars",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Detroit Red Wings",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 11
+  },
+  {
+    "Team Name": "Edmonton Oilers",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Florida Panthers",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Los Angeles Kings",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Minnesota Wild",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Montreal Canadiens",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 24
+  },
+  {
+    "Team Name": "Nashville Predators",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 0
+  },
+  {
+    "Team Name": "New Jersey Devils",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 3
+  },
+  {
+    "Team Name": "New York Islanders",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 4
+  },
+  {
+    "Team Name": "New York Rangers",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 4
+  },
+  {
+    "Team Name": "Ottawa Senators",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Philadelphia Flyers",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Pittsburgh Penguins",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 5
+  },
+  {
+    "Team Name": "San Jose Sharks",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Seattle Kraken",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 0
+  },
+  {
+    "Team Name": "St. Louis Blues",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Tampa Bay Lightning",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 3
+  },
+  {
+    "Team Name": "Toronto Maple Leafs",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Atlantic",
+    "Championships": 13
+  },
+  {
+    "Team Name": "Vancouver Canucks",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Vegas Golden Knights",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Pacific",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Washington Capitals",
+    "League": "NHL",
+    "Conference": "Eastern Conference",
+    "Division": "Metropolitan",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Winnipeg Jets",
+    "League": "NHL",
+    "Conference": "Western Conference",
+    "Division": "Central",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Atlanta United FC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Austin FC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Charlotte FC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Chicago Fire FC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "FC Cincinnati",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Colorado Rapids",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Columbus Crew",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 3
+  },
+  {
+    "Team Name": "D.C. United",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 4
+  },
+  {
+    "Team Name": "FC Dallas",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Houston Dynamo FC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Sporting Kansas City",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 2
+  },
+  {
+    "Team Name": "LA Galaxy",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 5
+  },
+  {
+    "Team Name": "Los Angeles FC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Inter Miami CF",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Minnesota United FC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "CF Montréal",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Nashville SC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "New England Revolution",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "New York City FC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "New York Red Bulls",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Orlando City SC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Philadelphia Union",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Portland Timbers",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Real Salt Lake",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "San Jose Earthquakes",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 2
+  },
+  {
+    "Team Name": "Seattle Sounders FC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 2
+  },
+  {
+    "Team Name": "St. Louis City SC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 0
+  },
+  {
+    "Team Name": "Toronto FC",
+    "League": "MLS",
+    "Conference": "Eastern Conference",
+    "Division": "N/A",
+    "Championships": 1
+  },
+  {
+    "Team Name": "Vancouver Whitecaps FC",
+    "League": "MLS",
+    "Conference": "Western Conference",
+    "Division": "N/A",
+    "Championships": 0
+  }
+]
