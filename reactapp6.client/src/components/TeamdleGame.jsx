@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import teamData from '../data/Teamdle_Database.json';
 import { compareTeams } from '../utils/comparisonLogic';
+import { Analytics } from "@vercel/analytics/react";
 
 const leagueLogos = {
     MLB: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/345px-Major_League_Baseball_logo.svg.png',
