@@ -3,7 +3,7 @@ import teamData from '../data/Teamdle_Database.json';
 import { compareTeams } from '../utils/comparisonLogic';
 
 const leagueLogos = {
-    MLB: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/345px-Major_League_Baseball_logo.svg.png',
+    MLB: '',
     NBA: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/03/National_Basketball_Association_logo.svg/158px-National_Basketball_Association_logo.svg.png',
     NFL: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/263px-National_Football_League_logo.svg.png',
     NHL: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/05_NHL_Shield.svg/285px-05_NHL_Shield.svg.png',
