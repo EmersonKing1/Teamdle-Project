@@ -306,7 +306,7 @@ const TeamdleGame = () => {
                     <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: colors.modalBg, zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <div style={{ background: colors.card, borderRadius: 14, boxShadow: colors.shadow, padding: 32, maxWidth: 420, width: '90%', position: 'relative', color: colors.text }}>
                             <button
-                            /*Exit button*/
+                                /*Exit button*/
                                 onClick={() => setShowHowToPlay(false)}
                                 style={{ position: 'absolute', top: 16, right: 16, background: 'none', border: 'none', fontSize: 28, color: colors.gray, cursor: 'pointer', fontWeight: 700 }}
                                 aria-label="Close"
@@ -319,20 +319,20 @@ const TeamdleGame = () => {
                     </div>
                 )}
                 {/* Footer */}
-                
+
                 {/* Feedback legend */}
                 <div style={{ textAlign: 'center', fontSize: 15, color: colors.text, marginTop: 16, fontWeight: 500 }}>
                     <div>Guess the daily team from the 5 major American sports leagues.</div>
                     <div style={{ marginTop: 6 }}>
-                        
+
                         <span style={{ color: colors.green, fontWeight: 700 }}>GREEN</span> = correct&nbsp;
                         <span style={{ color: colors.yellow, fontWeight: 700 }}>YELLOW</span> = close&nbsp;
                         <span style={{ color: colors.gray, fontWeight: 700 }}>GRAY</span> = incorrect
                     </div>
 
-                <div style={{ textAlign: 'center', fontSize: 13, color: colors.gray, marginTop: 32, fontWeight: 500 }}>
-                     <span>Made by Emerson King | <a href="https://github.com/EmersonKing1" target="_blank" rel="noopener noreferrer" style={{ color: colors.green, textDecoration: 'none', fontWeight: 700 }}>GitHub</a></span>
-                </div>
+                    <div style={{ textAlign: 'center', fontSize: 13, color: colors.gray, marginTop: 32, fontWeight: 500 }}>
+                        <span>Made by Emerson King | <a href="https://github.com/EmersonKing1" target="_blank" rel="noopener noreferrer" style={{ color: colors.green, textDecoration: 'none', fontWeight: 700 }}>GitHub</a></span>
+                    </div>
                 </div>
             </div>
         </div>
