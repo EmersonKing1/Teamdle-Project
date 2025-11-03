@@ -27,22 +27,15 @@ function findTeamByName(name) {
     );
 }
 
-const howToPlayText = `How to Play Teamdle
-
+const howToPlayText = `
 Guess the daily team from the 5 major American sports leagues (MLB, NBA, NFL, NHL, MLS).
 
 You have 10 guesses. For each guess, you'll get feedback on these categories:
 
-- League: GREEN if exact, GRAY otherwise.
-- Conference: GREEN if exact, GRAY otherwise.
-- Division: GREEN if exact, YELLOW if the conference matches but division does not, GRAY otherwise.
-- # of championships: GREEN if exact, YELLOW if your guess is within 1 (plus or minus) of the target, GRAY otherwise.
-
-GREEN = exact match
-YELLOW = close match (see above)
-GRAY = not close
-
-Type a team name and submit your guess!`;
+- League: GREEN if correct, GRAY otherwise.
+- Conference: GREEN if correct, GRAY otherwise.
+- Division: GREEN if correct, YELLOW if the conference matches but division does not, GRAY otherwise.
+- # of championships: GREEN if exact, YELLOW if your guess is within 1 of the correct number, GRAY otherwise.`;
 
 const feedbackLabels = ['League', 'Conference', 'Division', '# of championships'];
 
@@ -165,7 +158,7 @@ const TeamdleGame = () => {
                     ))}
                 </div>
                 <div style={{ textAlign: 'center', marginBottom: 18 }}>
-                    <h1 style={{ margin: 0, fontWeight: 800, letterSpacing: 2, color: colors.text, fontSize: 36, textShadow: '0 2px 8px #222' }}>Teamdle</h1>
+                    <h1 style={{ margin: 0, fontWeight: 1000, letterSpacing: 2, color: colors.text, fontSize: 36, textShadow: '0 2px 8px #222' }}>TEAMDLE</h1>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: 12, marginBottom: 18 }}>
                     <button
@@ -323,18 +316,20 @@ const TeamdleGame = () => {
                     </div>
                 )}
                 {/* Footer */}
-                <div style={{ textAlign: 'center', fontSize: 13, color: colors.gray, marginTop: 32, fontWeight: 500 }}>
-                    <span>Made by emkin | <a href="https://github.com/emkin" target="_blank" rel="noopener noreferrer" style={{ color: colors.green, textDecoration: 'none', fontWeight: 700 }}>GitHub</a></span>
-                </div>
+                
                 {/* Feedback legend */}
                 <div style={{ textAlign: 'center', fontSize: 15, color: colors.text, marginTop: 16, fontWeight: 500 }}>
                     <div>Guess the daily team from the 5 major American sports leagues.</div>
                     <div style={{ marginTop: 6 }}>
-                        Feedback:&nbsp;
-                        <span style={{ color: colors.green, fontWeight: 700 }}>GREEN</span> = exact,&nbsp;
-                        <span style={{ color: colors.yellow, fontWeight: 700 }}>YELLOW</span> = close,&nbsp;
-                        <span style={{ color: colors.gray, fontWeight: 700 }}>GRAY</span> = not close.
+                        
+                        <span style={{ color: colors.green, fontWeight: 700 }}>GREEN</span> = correct&nbsp;
+                        <span style={{ color: colors.yellow, fontWeight: 700 }}>YELLOW</span> = close&nbsp;
+                        <span style={{ color: colors.gray, fontWeight: 700 }}>GRAY</span> = incorrect
                     </div>
+
+                <div style={{ textAlign: 'center', fontSize: 13, color: colors.gray, marginTop: 32, fontWeight: 500 }}>
+                     <span>Made by Emerson King | <a href="https://github.com/EmersonKing1" target="_blank" rel="noopener noreferrer" style={{ color: colors.green, textDecoration: 'none', fontWeight: 700 }}>GitHub</a></span>
+                </div>
                 </div>
             </div>
         </div>
