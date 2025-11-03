@@ -173,7 +173,7 @@ const TeamdleGame = () => {
                 {/* Search/Guess Card */}
                 <div style={{ background: colors.input, borderRadius: 14, boxShadow: colors.shadow, padding: 20, marginBottom: 24, transition: 'box-shadow 0.2s' }}>
                     <form onSubmit={handleGuess} style={{ display: 'flex', flexDirection: 'row', gap: 10, position: 'relative', alignItems: 'center', width: '100%' }}>
-                        <div style={{ flex: '0 1 100%', position: 'relative', minWidth: 250, maxWidth: 1000 }}>
+                        <div style={{ flex: '0 1 100%', position: 'relative', minWidth: 350, maxWidth: 1000 }}>
                             <input
                                 type="text"
                                 value={guessInput}
@@ -221,7 +221,7 @@ const TeamdleGame = () => {
                         <button
                             type="submit"
                             disabled={gameOver}
-                            style={{ flex: '0 0 auto', background: colors.green, color: colors.text, border: 'none', borderRadius: 8, padding: '10px 20px', fontWeight: 700, fontSize: 16, cursor: 'pointer', boxShadow: colors.shadow, transition: 'background 0.2s', whiteSpace: 'nowrap', minWidth: 80, marginLeft: '125px' }}
+                            style={{ flex: '0 0 auto', background: colors.green, color: colors.text, border: 'none', borderRadius: 8, padding: '10px 20px', fontWeight: 700, fontSize: 16, cursor: 'pointer', boxShadow: colors.shadow, transition: 'background 0.2s', whiteSpace: 'nowrap', minWidth: 80, marginLeft: '37.5px' }}
                             onMouseOver={e => e.currentTarget.style.background = colors.accent}
                             onMouseOut={e => e.currentTarget.style.background = colors.green}
                         >
@@ -304,11 +304,12 @@ const TeamdleGame = () => {
                     <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: colors.modalBg, zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <div style={{ background: colors.card, borderRadius: 14, boxShadow: colors.shadow, padding: 32, maxWidth: 420, width: '90%', position: 'relative', color: colors.text }}>
                             <button
+                            /*Exit button*/
                                 onClick={() => setShowHowToPlay(false)}
                                 style={{ position: 'absolute', top: 16, right: 16, background: 'none', border: 'none', fontSize: 28, color: colors.gray, cursor: 'pointer', fontWeight: 700 }}
                                 aria-label="Close"
                             >
-                                ×
+                                X
                             </button>
                             <h3 style={{ marginTop: 0, marginBottom: 16, color: colors.green, fontWeight: 700 }}>How to play</h3>
                             <div style={{ whiteSpace: 'pre-line', color: colors.text, fontSize: 15 }}>{howToPlayText}</div>
