@@ -155,16 +155,16 @@ const TeamdleGame = () => {
                 {/* Header Bar */}
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 18, marginBottom: 24 }}>
                     {Object.entries(leagueLogos).map(([league, url]) => (
-                        <img key={league} src={url} alt={league} style={{ height: 36, width: 'auto', filter: 'drop-shadow(0 2px 4px #222)', borderRadius: 6, background: '#fff', padding: 2 }} />
+                        <img key={league} src={url} alt={league} style={{ height: 60, width: 'auto', margin: 10, filter: 'drop-shadow(0 2px 4px #222)' }} />
                     ))}
                 </div>
                 <div style={{ textAlign: 'center', marginBottom: 18 }}>
-                    <h1 style={{ margin: 0, fontWeight: 1000, letterSpacing: 2, color: colors.text, fontSize: 36, textShadow: '0 2px 8px #222' }}>TEAMDLE</h1>
+                    <h1 style={{ margin: 0, fontFamily: 'Arial', fontWeight: 1000, letterSpacing: 2, color: colors.text, fontSize: 50, textShadow: '0 2px 8px #222' }}>TEAMDLE</h1>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: 12, marginBottom: 18 }}>
                     <button
                         onClick={() => setShowHowToPlay(true)}
-                        style={{ background: colors.accent, color: colors.text, border: 'none', borderRadius: 8, padding: '8px 18px', fontWeight: 600, fontSize: 16, cursor: 'pointer', boxShadow: colors.shadow, transition: 'background 0.2s', letterSpacing: 1 }}
+                        style={{ background: colors.accent, color: colors.text, border: 'none', borderRadius: 8, padding: '8px 18px', fontWeight: 700, fontSize: 16, cursor: 'pointer', boxShadow: colors.shadow, transition: 'background 0.2s', letterSpacing: 1 }}
                         onMouseOver={e => e.currentTarget.style.background = colors.green}
                         onMouseOut={e => e.currentTarget.style.background = colors.accent}
                     >
@@ -190,6 +190,7 @@ const TeamdleGame = () => {
                                     top: '110%',
                                     left: 0,
                                     right: 0,
+                                    minWidth: 379,
                                     background: colors.card,
                                     border: `1px solid ${colors.border}`,
                                     borderRadius: 8,
