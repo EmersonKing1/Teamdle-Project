@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import teamData from '../data/Teamdle_Database.json';
 import { compareTeams } from '../utils/comparisonLogic';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const leagueLogos = {
