@@ -40,8 +40,8 @@ export const compareTeams = (guess, target) => {
 
     if (guessChamps === targetChamps) {
         feedback.push('GREEN');
-    } else if (Math.abs(guessChamps - targetChamps) <= 2) {
-        // YELLOW: Within +/- 2 (excluding exact match handled above)
+    } else if (Math.abs(guessChamps - targetChamps) <= 1) {
+        // YELLOW: Within +/- 1 (excluding exact match handled above)
         feedback.push('YELLOW');
     } else {
         feedback.push('GRAY');
