@@ -34,19 +34,8 @@ export function compareTeams(guess, target) {
     feedback.push({ status: 'GRAY', direction: gChamp < tChamp ? 'UP' : 'DOWN' });
   }
 
-<<<<<<< HEAD
   // Team Name
   feedback.push({ status: guess['Team Name'] === target['Team Name'] ? 'GREEN' : 'GRAY' });
-=======
-    if (guessChamps === targetChamps) {
-        feedback.push('GREEN');
-    } else if (Math.abs(guessChamps - targetChamps) <= 1) {
-        // YELLOW: Within +/- 1 (excluding exact match handled above)
-        feedback.push('YELLOW');
-    } else {
-        feedback.push('GRAY');
-    }
->>>>>>> 8e42b2b437f0553cd3e1e2bec4b288b57961ceb1
 
   return feedback;
 }

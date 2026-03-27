@@ -14,7 +14,10 @@
       "Bash(node -e 'var d = require\\(\"\"./src/data/Teamdle_Database.json\"\"\\); var nba = d.filter\\(function\\(t\\){ return t.League === \"\"NBA\"\"; }\\); var map = {}; nba.forEach\\(function\\(t\\){ if\\(map[t.Division] === undefined\\) map[t.Division] = []; if\\(map[t.Division].indexOf\\(t.Conference\\) === -1\\) map[t.Division].push\\(t.Conference\\); }\\); console.log\\(\"\"NBA div->conf:\"\", JSON.stringify\\(map, null, 2\\)\\);')",
       "Bash(node -e 'var d = require\\(\"\"./src/data/Teamdle_Database.json\"\"\\); var nhl = d.filter\\(function\\(t\\){ return t.League === \"\"NHL\"\"; }\\); var map = {}; nhl.forEach\\(function\\(t\\){ if\\(map[t.Division] === undefined\\) map[t.Division] = []; if\\(map[t.Division].indexOf\\(t.Conference\\) === -1\\) map[t.Division].push\\(t.Conference\\); }\\); console.log\\(\"\"NHL div->conf:\"\", JSON.stringify\\(map, null, 2\\)\\);')",
       "Bash(npm install:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(vercel --version)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel --yes --prod)"
     ]
   }
 }
