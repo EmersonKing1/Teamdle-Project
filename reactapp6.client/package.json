@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tailwindcss/vite": "^4.2.2",
+=======
+    "@vercel/speed-insights": "^1.2.0",
+>>>>>>> 8e42b2b437f0553cd3e1e2bec4b288b57961ceb1
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.2.2"
