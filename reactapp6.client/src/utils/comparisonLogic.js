@@ -1,54 +1,41 @@
-// src/utils/comparisonLogic.js
-
 /**
- * Compares a guess object against the target object and returns color-coded feedback.
- * @param {object} guess - The guessed team data.
- * @param {object} target - The target team data.
- * @returns {string[]} An array of 5 feedback colors: ['GREEN', 'YELLOW', 'GRAY']
+ * Compares a guessed team against the target team.
+ * @param {object} guess - Team object from teams.json
+ * @param {object} target - Target team object
+ * @returns {Array<{status: 'GREEN'|'YELLOW'|'GRAY', direction?: 'UP'|'DOWN'}>}
+ *   [0] League, [1] Conference, [2] Division, [3] Championships, [4] Team Name
  */
-export const compareTeams = (guess, target) => {
-    const feedback = [];
+export function compareTeams(guess, target) {
+  const feedback = [];
 
-    // 1. League Logic
-    feedback.push(guess.League === target.League ? 'GREEN' : 'GRAY');
+  // League
+  feedback.push({ status: guess.League === target.League ? 'GREEN' : 'GRAY' });
 
-    // 2. Conf./League Logic
-    if (guess.ConfLeague === target.ConfLeague) {
-        feedback.push('GREEN');
-    } else if (guess.League === target.League) {
-        // If Leagues match but Conferences don't, it's GRAY, not YELLOW (per the rules, this is redundant if League logic is first)
-        // The rules state: If Conf/League = Target.Conf/League -> GRAY ?. This looks like an error in the provided rules table.
-        // Assuming the rule is: Conf/League only GREEN if exact match, otherwise GRAY.
-        feedback.push('GRAY');
-    } else {
-        feedback.push('GRAY');
-    }
+  // Conference
+  feedback.push({ status: guess.Conference === target.Conference ? 'GREEN' : 'GRAY' });
 
-    // 3. Division Logic (Complex)
-    if (guess.Division === target.Division) {
-        feedback.push('GREEN');
-    } else if (guess.ConfLeague === target.ConfLeague) {
-        // YELLOW: Conf./League matches, but Division doesn't
-        feedback.push('YELLOW');
-    } else {
-        feedback.push('GRAY');
-    }
+  // Division: GREEN exact, YELLOW if same conference but different division, GRAY otherwise
+  if (guess.Division === target.Division) {
+    feedback.push({ status: 'GREEN' });
+  } else if (guess.Conference === target.Conference) {
+    feedback.push({ status: 'YELLOW' });
+  } else {
+    feedback.push({ status: 'GRAY' });
+  }
 
-    // 4. Championships Logic
-    const guessChamps = guess.Championships;
-    const targetChamps = target.Championships;
+  // Championships: GREEN exact, YELLOW within +/-2, GRAY otherwise; always show direction
+  const gChamp = guess.Championships;
+  const tChamp = target.Championships;
+  if (gChamp === tChamp) {
+    feedback.push({ status: 'GREEN' });
+  } else if (Math.abs(gChamp - tChamp) <= 2) {
+    feedback.push({ status: 'YELLOW', direction: gChamp < tChamp ? 'UP' : 'DOWN' });
+  } else {
+    feedback.push({ status: 'GRAY', direction: gChamp < tChamp ? 'UP' : 'DOWN' });
+  }
 
-    if (guessChamps === targetChamps) {
-        feedback.push('GREEN');
-    } else if (Math.abs(guessChamps - targetChamps) <= 2) {
-        // YELLOW: Within +/- 2 (excluding exact match handled above)
-        feedback.push('YELLOW');
-    } else {
-        feedback.push('GRAY');
-    }
+  // Team Name
+  feedback.push({ status: guess['Team Name'] === target['Team Name'] ? 'GREEN' : 'GRAY' });
 
-    // 5. Team Name Logic
-    feedback.push(guess.TeamName === target.TeamName ? 'GREEN' : 'GRAY');
-
-    return feedback;
-};
+  return feedback;
+}
